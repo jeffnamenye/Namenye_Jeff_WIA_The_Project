@@ -1,0 +1,170 @@
+ body{
+
+     background-image: url(../images/blue.jpg);
+     background-repeat: repeat;
+ }
+ .mainHeader{
+
+     text-align: center;
+
+ }
+
+ p{
+ color: white;
+
+ }
+
+ h1{
+     font-family: monotype corsiva;
+     color: white;
+     margin: 3%;
+ }
+
+ .mainHeader nav {
+     text-align: center;
+     background-color: lightblue;
+     height:3.475em ;
+     margin: 5%;
+     border-radius: 1em;
+     -moz-border-radius: 1em;
+     -webkit-border-radius: 1em;
+     -o-border-radius: 1em;
+ }
+ .mainHeader nav ul{
+     display: inline;
+     list-style: none;
+     margin: 7%;
+ }
+
+ .mainHeader nav ul, li{
+
+
+     float:left;
+     display: inline;
+     font-size: 1.5em;
+     list-style-type: none;
+     margin: 0;
+     padding: 1%;
+ }
+  .bio{
+
+      background: lightsteelblue;
+      border-radius: 25px;
+      text-indent: 5%;
+      padding: 1%;
+      margin:5%;
+  }
+
+
+ /*photo for bio*/
+ .bio img{
+     display: inline-block;
+     float: left;
+     margin: .5em;
+     transition: all .5s ease;
+ }
+
+ .bio img:hover{
+
+     transform: scale(2);
+     -ms-transform:scale(2); /* IE 9 */
+     -moz-transform:scale(2); /* Firefox */
+     -webkit-transform:scale(2); /* Safari and Chrome */
+     -o-transform:scale(2); /* Opera */
+     box-shadow:.25em .25em 1em;
+ }
+ .bio p{color: black;}
+
+ .footer{
+     font-family: monotype corsiva;
+     color: white;
+     margin: 3%;
+ }
+
+#wrapper{
+
+    text-align: center;
+    padding: 2px;
+    margin: 2%;
+    border: 2px solid lightsteelblue;
+    border-radius: 20px;
+}
+
+ .container {
+     max-width: 600px;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+ }
+ .container div {
+     background-color: black;
+     border: black solid 2px;
+     width: 100%;
+     display: inline-block;
+     display: none;
+ }
+ .container img {
+     width: 100%;
+     height: auto;
+ }
+ .price{
+     background: lightsteelblue;
+     border-radius: 25px;
+     padding: 1%;
+     margin:5%;
+
+ }
+
+
+ .chart-container { width: 400px; border: 1px solid #888; }
+ .chart-container{border-radius: 2%}
+
+ .chart-title { background-color: #888; padding: 5px 0px 10px 15px; margin: 0px; }
+ .chart-title h2 { margin: 0px; color: white; font-family: Georgia; }
+ .chart-title p { margin: 0px; color: white; }
+
+ .chart-content { height: 340px; position: relative; overflow: hidden; margin: 5px 0px 0px 0px;border-radius: 2% }
+
+ .chart-y-axis { width: 50px; height: 300px; position: absolute; top: 0px; left: 0px; }
+ .chart-y-axis p { margin: 0px 0px 0px 10px; padding: 0px 0px 0px 5px; width: 35px; position: absolute; border-bottom: 1px solid black; }
+
+ .chart-x-axis { height: 50px; position: absolute; top: 300px; left: 50px; }
+ .chart-x-axis p { position: absolute; top: 0px; width: 100px; color: #888; text-align: center; }
+ .chart-area {
+     width: 600px;
+     height: 300px;
+     position: absolute;
+     top: 0px;
+     left: 50px;
+     background-color: lightblue;
+ }
+
+ .chart-area .chart-bar {
+     position: absolute;
+     bottom: 0px;
+     width: 50px;
+     height: 0px;
+     -webkit-border-top-left-radius: 10px;
+     -webkit-border-top-right-radius: 10px;
+     -moz-border-radius-topleft: 10px;
+     -moz-border-radius-topright: 10px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     background-repeat: no-repeat;
+     background-position: 50% bottom;
+
+ }
+
+ .chart-area .chart-bar.Katherine    { background-color: lightsalmon; }
+ .chart-area .chart-bar.Happy { background-color: lightgreen; }
+ .chart-area .chart-bar.SnapShot    { background-color:lightgoldenrodyellow; }
+ .chart-area .chart-bar.Click    { background-color: lightcoral; }
+
+ .chart-area .chart-bar p { margin: 5px 0px 0px 0px; text-align: center; color: black; display: none; }
+
+ .toggler { width: 500px; height: 200px; position: relative; }
+ #button { padding: .5em 1em; text-decoration: none; }
+ #effect { position: relative; }
+ .newClass { width: 240px;  padding: 1em; letter-spacing: 0; font-size: 1.2em; margin: 0; }
+ .anotherNewClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.6em; }
+
